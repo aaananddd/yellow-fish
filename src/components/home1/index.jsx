@@ -8,7 +8,7 @@ const HomePage1 = () => {
     <div className="flex h-[70vh] items-center">
       <div className="w-1/2  flex-col justify-start pl-20">
         <div className="flex ">
-          <h1 className="text-5xl font-bold leading-tight font-sans">
+          <h1 className="text-6xl font-bold leading-tight font-sans">
             We make it the way <br />
             your{" "}
             <span className="text-purple-700 underline decoration-wavy decoration-2  underline-offset-4 decoration-yellow-400">
@@ -28,17 +28,17 @@ const HomePage1 = () => {
           />
         </div>
         <div>
-          <p className="text-lg  text-gray-600 mt-4">
+          <p className="text-xl  text-gray-600 mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
           </p>
         </div>
         <div className="mt-6 flex items-center space-x-4">
-          <button className="bg-purple-700 text-white w-12 h-12 rounded-full hover:bg-purple-800 transition duration-300 flex items-center justify-center">
+          <button className="bg-purple-700 text-white w-16 h-16 rounded-full hover:bg-purple-800 transition duration-300 flex items-center justify-center">
             <Play className="w-5 h-5 fill-white" />
           </button>
 
-          <span className="text-purple-700 text-lg font-medium">
+          <span className="text-purple-700 text-xl font-medium">
             Discover Now
           </span>
         </div>
