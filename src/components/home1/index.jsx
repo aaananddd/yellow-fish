@@ -8,7 +8,7 @@ const HomePage1 = () => {
     <div className="flex flex-col lg:flex-row min-h-[70vh] items-center py-10 lg:py-0">
       <div className="w-full lg:w-1/2 flex flex-col justify-start px-6 md:px-12 lg:pl-20 text-center lg:text-left">
         <div className="flex flex-col lg:flex-row items-center lg:items-start">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-sans">
+          <h1 className="text-4xl md:text-5xl lg:text-4xl font-bold leading-tight font-sans">
             We make it the way <br />
             your{" "}
             <span className="text-purple-700 underline decoration-wavy decoration-2 underline-offset-4 decoration-yellow-400">
@@ -19,7 +19,7 @@ const HomePage1 = () => {
           <img
             src={CurlyArrow}
             alt="curly arrow"
-            className="hidden md:inline-block w-32 h-20 lg:w-40 lg:h-24 md:ml-4 lg:ml-10 -mt-4 -rotate-20"
+            className="hidden md:inline-block w-26 h-20 lg:w-30 lg:h-24 md:ml-4 lg:ml-10 -mt-4 -rotate-20"
             style={{
               filter:
                 "brightness(0) saturate(100%) invert(25%) sepia(85%) saturate(6000%) hue-rotate(260deg) brightness(95%) contrast(105%)",
@@ -27,24 +27,23 @@ const HomePage1 = () => {
           />
         </div>
         <div className="mt-4">
-          <p className="text-lg md:text-xl text-gray-600">
+          <p className="text-md md:text-md text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt <br className="hidden lg:block" /> ut
-            labore et dolore magna aliqua.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
         <div className="mt-8 flex items-center justify-center lg:justify-start space-x-4">
-          <button className="bg-purple-700 text-white w-14 h-14 md:w-16 md:h-16 rounded-full hover:bg-purple-800 transition duration-300 flex items-center justify-center">
+          <button className="bg-purple-700 text-white w-14 h-14 md:w-12 md:h-12 rounded-full hover:bg-purple-800 transition duration-300 flex items-center justify-center">
             <Play className="w-5 h-5 fill-white" />
           </button>
 
-          <span className="text-purple-700 text-lg md:text-xl font-medium">
+          <span className="text-purple-700 text-md md:text-md font-medium">
             Discover Now
           </span>
         </div>
       </div>
 
-      <div className="w-full lg:w-1/2 flex items-center justify-center mt-12 lg:mt-0 px-6">
+      <div className="w-full lg:w-1/2 flex items-center justify-center mt-12 lg:mt-0 px-6 pt-4 pb-4">
         <div className="flex flex-col md:flex-row gap-6 items-center">
           {/* LEFT SECTION */}
           <div className="relative bg-indigo-600 text-white p-6 w-72 h-72 md:w-64 md:h-64 shadow-lg">
@@ -73,7 +72,7 @@ const HomePage1 = () => {
           {/* RIGHT SECTION / BOTTOM CARDS */}
           <div className="flex flex-col gap-6">
             {/* TOP CARD */}
-            <div className="relative bg-teal-600 text-white p-6 w-72 h-72 md:w-64 md:h-64 shadow-lg">
+            <div className="relative bg-teal-600 text-white p-6 w-76 h-72 md:w-64 md:h-64 shadow-lg">
               <Telescope className="text-orange-300 mb-4" size={28} />
               <h3 className="font-semibold mb-2">Exploring skills</h3>
               <p className="text-sm text-teal-100">
@@ -84,16 +83,15 @@ const HomePage1 = () => {
             </div>
 
             {/* BOTTOM CARD */}
-            <div className="relative bg-black text-white p-6 w-72 h-72 md:w-64 md:h-64 shadow-lg">
+            <div className="relative bg-black text-white p-6 w-50 h-72 md:w-54 md:h-64 shadow-lg">
               <Puzzle className="text-orange-400 mb-4" size={28} />
               <h3 className="font-semibold mb-2">Decision making</h3>
               <p className="text-sm text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                minim mollit non deserunt ullamco est sit aliqua dolor. Velit
-                officia consequat duis enim velit mollit.
+                minim mollit non deserunt ullamco est sit aliqua dolor. 
               </p>
               {/* Purple corner shape */}
-              <div className="absolute -top-0 -right-4 md:-right-20 w-12 h-10 md:w-16 md:h-14 bg-purple-600 rounded-br-full"></div>
+              <div className="absolute -top-0 -right-4 md:-right-10 w-12 h-10 md:w-8 md:h-8 bg-purple-600 rounded-br-full"></div>
             </div>
           </div>
         </div>

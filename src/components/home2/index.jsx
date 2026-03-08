@@ -7,7 +7,7 @@ const Homepage2 = () => {
       <div className="w-full lg:w-1/2 flex items-center justify-center py-12 lg:py-0">
         <div className="w-full flex flex-col justify-start px-6 md:px-12 lg:pl-20 text-center lg:text-left">
           <div className="flex justify-center lg:justify-start">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-sans">
+            <h1 className="text-4xl md:text-5xl lg:text-4xl font-bold leading-tight font-sans">
               Much enjoyable{" "}
               <span className="text-purple-700 underline decoration-wavy decoration-4 underline-offset-4 decoration-yellow-400">
                 sessions <br className="hidden lg:block" />
@@ -16,7 +16,7 @@ const Homepage2 = () => {
             </h1>
           </div>
           <div className="mt-4">
-            <p className="text-lg md:text-xl text-gray-600">
+            <p className="text-md md:text-md text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod <br className="hidden lg:block" /> ut labore et dolore magna aliqua.
             </p>
@@ -25,10 +25,10 @@ const Homepage2 = () => {
             <img
               src={Certificate}
               alt="certificate"
-              className="w-10 h-10 md:w-12 md:h-12 -rotate-10"
+              className="w-10 h-10 md:w-10 md:h-10 -rotate-10"
             />
 
-            <span className="text-purple-700 text-lg md:text-xl font-medium">
+            <span className="text-purple-700 text-md md:text-md font-medium">
               Certificate Included
             </span>
           </div>
