@@ -1,5 +1,5 @@
 import { Flag, Map, Play, Puzzle, Telescope } from "lucide-react";
-import CurlyArrow from "../../assets/curly-arrow.png"; 
+import CurlyArrow from "../../assets/curly-arrow-1.png"; 
 import WavyLines from "../../assets/wavy-lines.png"; 
 import React from "react";
 
@@ -20,7 +20,11 @@ const HomePage1 = () => {
           <img
             src={CurlyArrow}
             alt="curly arrow"
-            className="inline-block w-12 h-24 ml-2 -mt-4"
+            className="inline-block w-40 h-24 ml-10 -mt-4 -rotate-20"
+            style={{
+              filter:
+                "brightness(0) saturate(100%) invert(25%) sepia(85%) saturate(6000%) hue-rotate(260deg) brightness(95%) contrast(105%)",
+            }}
           />
         </div>
         <div>
