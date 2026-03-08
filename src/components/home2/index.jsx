@@ -19,7 +19,7 @@ const Homepage2 = () => {
           <div>
             <p className="text-xl  text-gray-600 mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt <br /> ut labore et dolore magna aliqua.
+              eiusmod  <br /> ut labore et dolore magna aliqua.
             </p>
           </div>
           <div className="mt-6 flex items-center space-x-4">
