@@ -1,4 +1,3 @@
-import { AwardIcon } from "lucide-react";
 import Certificate from "../../assets/certificate.png";
 import React from "react";
 
@@ -19,7 +18,7 @@ const Homepage2 = () => {
           <div>
             <p className="text-xl  text-gray-600 mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod  <br /> ut labore et dolore magna aliqua.
+              eiusmod <br /> ut labore et dolore magna aliqua.
             </p>
           </div>
           <div className="mt-6 flex items-center space-x-4">
@@ -36,9 +35,50 @@ const Homepage2 = () => {
         </div>
       </div>
       <div className="w-1/2 bg-purple-100 flex items-center justify-center">
-        Right section
+          <div className="w-56 rounded-2xl overflow-visible shadow-2xl shadow-purple-400/40 font-sans">
+            {/* Top Section */}
+            <div
+              className="relative text-center px-6 pt-16 pb-14 rounded-t-2xl"
+              style={{
+                background: "linear-gradient(160deg, #7c6af5 0%, #5b21b6 100%)",
+              }}
+            >
+              <div className="text-white text-5xl font-bold">
+                <span className="text-3xl align-top mt-2 inline-block">₹</span>
+                199
+              </div>
+              <div className="text-white/70 text-sm mt-1 tracking-wide">
+                Per head
+              </div>
+              <div className="inline-block mt-3 border border-yellow-400 text-yellow-400 text-xs font-semibold tracking-widest px-4 py-1 rounded-full">
+                60% OFF
+              </div>
+
+              {/* Notches */}
+              <div className="absolute -bottom-3.5 -left-3.5 w-7 h-7 rounded-full bg-purple-100" />
+              <div className="absolute -bottom-3.5 -right-3.5 w-7 h-7 rounded-full bg-purple-100" />
+            </div>
+
+            {/* Dashed Divider */}
+            <div
+              className="flex items-center px-5 py-0"
+              style={{ background: "#6033b8" }}
+            >
+              <div className="flex-1 border-t-3 border-dashed border-white/25 my-0" />
+            </div>
+
+            {/* Bottom Section */}
+            <div
+              className="text-center py-5 rounded-b-2xl"
+              style={{ background: "#6033b8" }}
+            >
+              <button className="text-white text-sm font-bold tracking-[3px] bg-transparent border-none cursor-pointer">
+                GET NOW
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
   );
 };
 
