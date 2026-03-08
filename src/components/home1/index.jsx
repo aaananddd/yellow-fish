@@ -60,11 +60,15 @@ const HomePage1 = () => {
                 </p>
 
                 {/* Decorative waves */}
-                <div className="absolute -bottom-8 left-6 flex flex-col gap-1">
+                <div className="absolute -bottom-24 left-6 flex flex-col gap-1">
                   <img
                     src={WavyLines}
                     alt="wavy lines"
-                    className="inline-block w-12 h-24 ml-30 "
+                    className="inline-block w-40 h-24 ml-20  "
+                    style={{
+                      filter:
+                        "brightness(0) saturate(100%) invert(80%) sepia(60%) saturate(500%) hue-rotate(5deg)",
+                    }}
                   />
                 </div>
 
