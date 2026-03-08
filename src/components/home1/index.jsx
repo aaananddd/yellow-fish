@@ -1,6 +1,6 @@
 import { Flag, Map, Play, Puzzle, Telescope } from "lucide-react";
-import CurlyArrow from "../../assets/curly-arrow-1.png"; 
-import WavyLines from "../../assets/wavy-lines.png"; 
+import CurlyArrow from "../../assets/curly-arrow-1.png";
+import WavyLines from "../../assets/wavy-lines.png";
 import React from "react";
 
 const HomePage1 = () => {
@@ -16,7 +16,6 @@ const HomePage1 = () => {
             </span>{" "}
             loves it
           </h1>
-          {/* Arrow - hidden on small mobile, shown on larger screens */}
           <img
             src={CurlyArrow}
             alt="curly arrow"
@@ -30,7 +29,8 @@ const HomePage1 = () => {
         <div className="mt-4">
           <p className="text-lg md:text-xl text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt <br className="hidden lg:block" /> ut labore et dolore magna aliqua.
+            eiusmod tempor incididunt <br className="hidden lg:block" /> ut
+            labore et dolore magna aliqua.
           </p>
         </div>
         <div className="mt-8 flex items-center justify-center lg:justify-start space-x-4">
@@ -43,19 +43,18 @@ const HomePage1 = () => {
           </span>
         </div>
       </div>
-      
+
       <div className="w-full lg:w-1/2 flex items-center justify-center mt-12 lg:mt-0 px-6">
         <div className="flex flex-col md:flex-row gap-6 items-center">
-          {/* LEFT SECTION / TOP CARD ON MOBILE */}
+          {/* LEFT SECTION */}
           <div className="relative bg-indigo-600 text-white p-6 w-72 h-72 md:w-64 md:h-64 shadow-lg">
             <Map className="text-yellow-300 mb-4" size={28} />
             <h3 className="font-semibold mb-2">Guidance</h3>
             <p className="text-sm text-indigo-100">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate officia consequatur duis enim velit mollit. Lorem
-              ipsum dolor sit amet consectetur.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              officia consequatur duis enim velit mollit. Lorem ipsum dolor sit
+              amet consectetur.
             </p>
-            {/* Decorative waves - adjusted for responsiveness */}
             <div className="absolute -bottom-16 md:-bottom-24 left-6 flex flex-col gap-1 pointer-events-none">
               <img
                 src={WavyLines}
